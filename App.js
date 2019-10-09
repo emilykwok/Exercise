@@ -7,6 +7,8 @@
  */
 
 import React from 'react';
+import Start from './Ashlynn/Start.js';
+import Contacts from './Ashlynn/Contacts.js';
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,7 +18,6 @@ import {
   StatusBar,
 } from 'react-native';
 import Nicole from './nicole/Nicole';
-import Contacts from './nicole/Nicole';
 import About from './nicole/About';
 import styles from './styles/AppStyles';
 
@@ -25,9 +26,10 @@ function App(){
   return(
       <View style={styles.app}>
         <Text>Hi Myteam</Text>
-        <Nicole />
-        <Contacts />
-        <About />
+         <Start />
+          <Nicole />
+         <Contacts />
+         <About />
       </View>
     )
 }
