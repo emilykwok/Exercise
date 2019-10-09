@@ -7,8 +7,7 @@
  */
 
 import React from 'react';
-import Start from './Ashlynn/Start.js';
-import Contacts from './Ashlynn/Contacts.js';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -31,6 +30,7 @@ function App(){
          <Contacts />
          <About />
       </View>
+
     )
 }
 
