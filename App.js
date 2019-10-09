@@ -17,19 +17,21 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Nicole from './nicole/Nicole';
+import About from './nicole/About';
+import styles from './styles/AppStyles';
+
 
 function App(){
   return(
-    <View>
-      <Start />
-      <Contacts />
-    </View>
-
+      <View style={styles.app}>
+        <Text>Hi Myteam</Text>
+         <Start />
+          <Nicole />
+         <Contacts />
+         <About />
+      </View>
     )
 }
-
-
-
-
 
 export default App;
